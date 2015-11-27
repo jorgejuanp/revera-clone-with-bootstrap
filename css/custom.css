@@ -2,6 +2,10 @@ a {
   color: #ed564b
 }
 
+.header {
+  background-color: #40464B;
+}
+
 #hero {
   height: 500px;
   /*background-color: rgb(200, 145, 114);*/
@@ -47,25 +51,34 @@ a {
   margin-top: 5px;
 }
 
-.thumbnail {
+.img-thumb {
+  width: 100%;
+  height: auto;
   border: 0px;
   padding: 0px;
-  max-height: 200px;
+  max-height: 150px;
   overflow: hidden;
+}
+
+.img-thumb img {
+  width: 100%;
+  height: auto;
+  min-height: 150px;
 }
 
 .post-title-thumb {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.4em;
   color: #3b3b3b;
+  margin-top: 5px;
 }
 
 .post-metadata {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 1em;
+  font-size: .85em;
   color: #bfbfbf;
   margin-top: 5px;
   padding: 0px;
