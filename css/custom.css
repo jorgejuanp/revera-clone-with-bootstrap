@@ -7,15 +7,12 @@ a {
 }
 
 #hero {
-  height: 500px;
-  /*background-color: rgb(200, 145, 114);*/
-  overflow: hidden;
-  background-position: center;
+  min-height:200px;
+  background-color: #ED564B;
 }
 
-#hero img {
-  max-width: 100%;
-  min-width: 840px;
+.item img {
+  width: 100%;
 }
 
 .widgets {

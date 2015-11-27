@@ -4345,7 +4345,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 }
 .navbar-default .navbar-brand {
-  color: #000;
+  color: #5F696A;
+  font-family: 'Megrim', cursive;
+  font-size: 3em;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -4356,7 +4358,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: #809092;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
